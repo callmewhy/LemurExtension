@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		02F100AFD642C2D3C0FBB2A4 /* libPods-LemurExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E42F33FD97B7B8E6E96D2D0 /* libPods-LemurExtension.a */; };
 		9639D0851BE09268003A98BD /* LeanCloud+Lemur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9639D0841BE09268003A98BD /* LeanCloud+Lemur.swift */; };
+		965B7BED1BE0C4CA0029219C /* UIStoryboardSegue+Lemur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965B7BEC1BE0C4CA0029219C /* UIStoryboardSegue+Lemur.swift */; };
 		966C59AF1BDCEFCA00BF397D /* LemurExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 966C59AE1BDCEFCA00BF397D /* LemurExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		966C59BF1BDE120400BF397D /* Array+Lemur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966C59BE1BDE120400BF397D /* Array+Lemur.swift */; };
 		966C59C81BDF9C6300BF397D /* NSObject+Lemur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966C59C71BDF9C6300BF397D /* NSObject+Lemur.swift */; };
@@ -40,6 +41,7 @@
 		613D3355224772DC3171B2C1 /* Pods-LemurExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LemurExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-LemurExtension/Pods-LemurExtension.release.xcconfig"; sourceTree = "<group>"; };
 		9301DAF449CBD40D4A237701 /* Pods-LemurExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LemurExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LemurExtension/Pods-LemurExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		9639D0841BE09268003A98BD /* LeanCloud+Lemur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LeanCloud+Lemur.swift"; sourceTree = "<group>"; };
+		965B7BEC1BE0C4CA0029219C /* UIStoryboardSegue+Lemur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboardSegue+Lemur.swift"; sourceTree = "<group>"; };
 		966C59AB1BDCEFCA00BF397D /* LemurExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LemurExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		966C59AE1BDCEFCA00BF397D /* LemurExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LemurExtension.h; sourceTree = "<group>"; };
 		966C59B01BDCEFCA00BF397D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 				966C59E61BDFA18C00BF397D /* UIView+Lemur.swift */,
 				966C59E81BDFA1A300BF397D /* UITableView+Lemur.swift */,
 				966C59EA1BDFA1DB00BF397D /* UIControl+Lemur.swift */,
+				965B7BEC1BE0C4CA0029219C /* UIStoryboardSegue+Lemur.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 				966C59CC1BDF9DBD00BF397D /* Int+Lemur.swift in Sources */,
 				966C59E11BDFA09E00BF397D /* UIView+Shortcuts.swift in Sources */,
 				966C59E71BDFA18C00BF397D /* UIView+Lemur.swift in Sources */,
+				965B7BED1BE0C4CA0029219C /* UIStoryboardSegue+Lemur.swift in Sources */,
 				966C59CA1BDF9D5A00BF397D /* UIViewController+Lemur.swift in Sources */,
 				966C59E31BDFA11900BF397D /* UIColor+Lemur.swift in Sources */,
 				966C59EB1BDFA1DB00BF397D /* UIControl+Lemur.swift in Sources */,
