@@ -28,4 +28,10 @@ Pod::Spec.new do |s|
     ss.dependency "LemurExtension/Foundation"
   end
 
+  s.subspec "LeanCloud" do |ss|
+    ss.source_files  = "LemurExtension/LeanCloud/*.{swift}"
+    ss.framework  = "UIKit"
+    ss.dependency "LemurExtension/Foundation"
+  end
+
 end
