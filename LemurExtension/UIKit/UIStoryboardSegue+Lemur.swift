@@ -8,11 +8,11 @@
 
 import UIKit
 
-protocol SegueHandlerType {
+public protocol SegueHandlerType {
     typealias SegueIdentifier: RawRepresentable
 }
 
-extension SegueHandlerType where Self: UIViewController, SegueIdentifier.RawValue == String {
+public extension SegueHandlerType where Self: UIViewController, SegueIdentifier.RawValue == String {
     func performSegueWithIdentifier(identifier: SegueIdentifier, sender: AnyObject?) {
         performSegueWithIdentifier(identifier.rawValue, sender: sender)
     }
